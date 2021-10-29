@@ -1,161 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My resume</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My resume</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
-</head>
+  <body>
+    <div class="container">
+      <aside class="left-side">
+        <img
+          src="images/selfie.JPG"
+          alt="photo Kamil Siwiec"
+          width="370"
+          class="photo"
+        />
 
-<body>
-  
-<div class="container">
-<aside class="left-side">
-<img src="images/selfie.JPG" alt="photo Kamil Siwiec" width="370" class="photo">
+        <section class="contacts">
+          <h2 class="contacts__title">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              Phone:
+              <a href="tel:+48730527769" class="contacts__link"
+                >+48 730 527 769</a
+              >
+            </li>
+            <li class="contacts__item">
+              E-mail:
+              <a href="mailto:kamsiwcode@gmail.com" class="contacts__link"
+                >kamsiwcode@gmail.com</a
+              >
+            </li>
+          </ul>
+        </section>
 
-<section class="contacts">
-  <h2 class="contacts__title">Contacts</h2>
-  <ul class="contacts__list">
-    <li class="contacts__item">
-      Phone:
-      <a href="tel:+48730527769" class="contacts__link">+48 730 527 769</a>
-    </li>
-    <li class="contacts__item">
-      E-mail:
-      <a href="mailto:kamsiwcode@gmail.com" class="contacts__link">kamsiwcode@gmail.com</a>
-    </li>
-  </ul>
-</section>
+        <section class="skills">
+          <h2 class="skills__title">Tech skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">Git</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">...</li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2 class="skills__title">Soft skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">Attention to detail</li>
+            <li class="skills__item">Flexibility/Adaptability</li>
+            <li class="skills__item">Communication</li>
+            <li class="skills__item">Teamwork</li>
+          </ul>
+        </section>
+        <section class="widget">
+          <a class="widget__link" href="KamilSiwiec_CV.PDF">Download Resume</a>
+        </section>
+      </aside>
+      <div class="right-side">
+        <section class="bio">
+          <h1 class="bio__title">Kamil Siwiec</h1>
+          <p class="bio__occupation">Junior Front-end developer candidate</p>
+          <p class="bio__about">
+            Ambitious and goal-oriented. I am distinguished by my
+            conscientiousness and accuracy. I would like to use the knowledge I
+            have gained so far in your company. I am eager to improve my skills.
+          </p>
+        </section>
 
-<section class="skills">
-  <h2 class="skills__title">Tech skills</h2>
-  <ul class="skills__list">
-    <li class="skills__item">HTML</li>
-    <li class="skills__item">CSS</li>
-    <li class="skills__item">Git</li>
-    <li class="skills__item">JavaScript</li>
-    <li class="skills__item">React</li>
-    <li class="skills__item">...</li>
-  </ul>
-</section>
-<section class="skills">
-  <h2 class="skills__title">Soft skills</h2>
-  <ul class="skills__list">
-    <li class="skills__item">Attention to detail</li>
-    <li class="skills__item">Flexibility/Adaptability</li>
-    <li class="skills__item">Communication</li>
-    <li class="skills__item">Teamwork</li>
-  </ul>
-</section>
-<section class="widget">
-  <a class="widget__link" href="KamilSiwiec_CV.PDF">Download Resume</a>
-</section>
-</aside>
-<div class="right-side">
-<section class="bio">
-  <h1 class="bio__title">Kamil Siwiec</h1>
-  <p class="bio__occupation">Junior Front-end developer candidate</p>
-  <p class="bio__about">Ambitious and goal-oriented. I am distinguished by my conscientiousness and accuracy. I would like to use the knowledge I have gained so far in your company. I am eager to improve my skills.</p>
-</section>
+        <section class="projects">
+          <h2 class="projects__title">Projects</h2>
 
-<section class="projects">
-  <h2 class="projects__title">Projects</h2>
+          <ol>
+            <li>
+              <a class="projects__link" href="#" target="_blank"
+                >Under Construction</a
+              >
+            </li>
+            <li>
+              <a class="projects__link" href="#" target="_blank"
+                >Under Construction</a
+              >
+            </li>
+            <li>
+              <a class="projects__link" href="#" target="_blank"
+                >Under Construction</a
+              >
+            </li>
+          </ol>
+        </section>
 
-  <ol>
-    <li><a class="projects__link" href="#" target="_blank">Under Construction</a></li>
-    <li><a class="projects__link" href="#" target="_blank">Under Construction</a></li>
-    <li><a class="projects__link" href="#" target="_blank">Under Construction</a></li>
-  </ol>
-</section>
+        <section class="education">
+          <h2 class="education__title">Education</h2>
 
-<section class="education">
-<h2 class="education__title">Education</h2>
+          <h3 class="education__degree">
+            Front-end Developer,
+            <a
+              class="education__link"
+              target="_blank"
+              href="https://akademia108.pl/"
+            >
+              <span class="accent">Akademia 108 Courses</span>
+            </a>
+          </h3>
+          <p class="education__time">Planning to do</p>
+          <ul class="experience">
+            <li class="experience__item">Intensive Frontend Bootcamp</li>
+          </ul>
 
-<h3 class="education__degree">
-  Front-end Developer,
-  <a class="education__link" target="_blank" href="https://akademia108.pl/">
-    <span class="accent">Akademia 108 Courses</span>
-  </a>
-</h3>
-<p class="education__time">Planning to do</p>
-<ul class="experience">
-  <li class="experience__item">Intensive Frontend Bootcamp</li>
-</ul>
+          <h3 class="education__degree">
+            React training course,
+            <a
+              class="education__link"
+              target="_blank"
+              href="https://szkolareacta.pl/"
+            >
+              <span class="accent">Szkoła Reacta</span>
+            </a>
+          </h3>
+          <p class="education__time">January 2022 - April 2022</p>
+          <ul class="experience">
+            <li class="experience__item">
+              Intensive React training course. All under the guidance of
+              experienced Senior Frontend Developer Patryk Omiotek
+            </li>
+          </ul>
 
-<h3 class="education__degree">
-  React training course,
-  <a class="education__link" target="_blank" href="https://szkolareacta.pl/">
-    <span class="accent">Szkoła Reacta</span>
-  </a>
-</h3>
-<p class="education__time">January 2022 - April 2022</p>
-<ul class="experience">
-  <li class="experience__item">Intensive React training course. All under the guidance of experienced Senior Frontend Developer Patryk Omiotek</li>
-</ul>
+          <h3 class="education__degree">
+            JavaScript training course,
+            <a
+              class="education__link"
+              target="_blank"
+              href="https://przeprogramowani.pl/kurs-javascript"
+            >
+              <span class="accent">Opanuj JavaScript</span>
+            </a>
+          </h3>
+          <p class="education__time">November 2021 - March 2022</p>
+          <ul class="experience">
+            <li class="experience__item">
+              Intensive training of JavaScript. All under the guidance of
+              experienced Senior Frontend Developers
+            </li>
+          </ul>
 
-<h3 class="education__degree">
-  JavaScript training course,
-  <a class="education__link" target="_blank" href="https://przeprogramowani.pl/kurs-javascript">
-    <span class="accent">Opanuj JavaScript</span>
-  </a>
-</h3>
-<p class="education__time">November 2021 - March 2022</p>
-<ul class="experience">
-  <li class="experience__item">Intensive training of JavaScript. All under the guidance of experienced Senior Frontend Developers</li>
-</ul>
+          <h3 class="education__degree">
+            Front-end training course,
+            <a
+              class="education__link"
+              target="_blank"
+              href="https://cotenfrontend.pl/"
+            >
+              <span class="accent">WTF: Co Ten Frontend</span>
+            </a>
+          </h3>
+          <p class="education__time">November 2020 - November 2021</p>
+          <ul class="experience">
+            <li class="experience__item">
+              Intensive training and, most importantly, practical learning of
+              frontend basics from the most up-to-date materials. All under the
+              guidance of experienced Senior Frontend Developer Maciek Korsan
+            </li>
+          </ul>
+        </section>
 
-<h3 class="education__degree">
-  Front-end training course,
-  <a class="education__link" target="_blank" href="https://cotenfrontend.pl/">
-    <span class="accent">WTF: Co Ten Frontend</span>
-  </a>
-</h3>
-<p class="education__time">November 2020 - November 2021</p>
-<ul class="experience">
-  <li class="experience__item">Intensive training and, most importantly, practical learning of frontend basics from the most up-to-date materials. All under the guidance of experienced Senior Frontend Developer Maciek Korsan</li>
-</ul>
-</section>
+        <section class="jobs">
+          <h2 class="jobs__title">Employment history</h2>
 
-<section class="jobs">
-<h2 class="jobs__title">Employment history</h2>
+          <h3 class="jobs__occupation">
+            Front-end developer at
+            <span class="accent">Freelance</span>
+          </h3>
+          <p class="jobs__time">October 2021 - up to now</p>
+          <ul class="experience">
+            <li class="experience__item">
+              Designing and developing user friendly websites
+            </li>
+          </ul>
 
-<h3 class="jobs__occupation">
-  Front-end developer at
-  <span class="accent">Freelance</span>
-</h3>
-<p class="jobs__time">October 2021 - up to now</p>
-<ul class="experience">
-  <li class="experience__item">Designing and developing user friendly websites</li>
-</ul>
+          <h3 class="jobs__occupation">
+            Team Leader at <span class="accent">PKC Group Starachowice</span>
+          </h3>
+          <p class="jobs__time">May 2018 - up to now</p>
+          <ul class="experience">
+            <li class="experience__item">
+              Managing the day-to-day activities of the team.
+            </li>
+            <li class="experience__item">Delegating tasks to team members.</li>
+            <li class="experience__item">
+              Motivating the team to achieve organizational goals.
+            </li>
+            <li class="experience__item">
+              Implementing a timeline to achieve targets.
+            </li>
+          </ul>
 
-<h3 class="jobs__occupation">
-  Team Leader at <span class="accent">PKC Group Starachowice</span>
-</h3>
-<p class="jobs__time">May 2018 - up to now</p>
-<ul class="experience">
-  <li class="experience__item">Managing the day-to-day activities of the team.</li>
-  <li class="experience__item">Delegating tasks to team members.</li>
-  <li class="experience__item">Motivating the team to achieve organizational goals.</li>
-  <li class="experience__item">Implementing a timeline to achieve targets.</li>
-</ul>
-
-<h3 class="jobs__occupation">
-  Machine Operator at <span class="accent">PKC Group Starachowice</span>
-</h3>
-<p class="jobs__time">October 2013 - May 2018</p>
-<ul class="experience">
-  <li class="experience__item">Assist in the installation, maintenance, and repair of machinery.</li>
-  <li class="experience__item">Operating with tools in order to aid in the manufacturing process.</li>
-  <li class="experience__item">Working with others in order to ensure that equipment is in proper working order.</li>
-  <li class="experience__item">Adjusting machine as needed for changeovers, different functions, or other varying needs of production.</li>
-</ul>
-</section>
-</div>
-</div>
-</body>
-
+          <h3 class="jobs__occupation">
+            Machine Operator at
+            <span class="accent">PKC Group Starachowice</span>
+          </h3>
+          <p class="jobs__time">October 2013 - May 2018</p>
+          <ul class="experience">
+            <li class="experience__item">
+              Assist in the installation, maintenance, and repair of machinery.
+            </li>
+            <li class="experience__item">
+              Operating with tools in order to aid in the manufacturing process.
+            </li>
+            <li class="experience__item">
+              Working with others in order to ensure that equipment is in proper
+              working order.
+            </li>
+            <li class="experience__item">
+              Adjusting machine as needed for changeovers, different functions,
+              or other varying needs of production.
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
