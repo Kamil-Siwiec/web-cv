@@ -1,0 +1,43 @@
+body {
+  background-color: #f5f7fa;
+  padding: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.bio,
+.projects,
+.jobs,
+.education {
+  margin-bottom: 60px;
+}
+
+.right-side {
+  width: 830px;
+  padding-left: 80px;
+  padding-right: 200px;
+  padding-bottom: 68px;
+}
+
+.bio__title {
+ font-size: 45px;
+ line-height: 2;
+ margin-bottom: 20px;
+}
+
+.bio__occupation {
+  margin-bottom: 27px;
+}
+
+.bio__title,
+.bio__occupation {
+  color: #2a2a2a;
+}
+
