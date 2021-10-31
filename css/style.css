@@ -139,3 +139,52 @@ body {
   font-size: 18px;
 }
 
+.photo {
+  width: 370px;
+}
+
+.photo,
+.contacts,
+.skills,
+.widget {
+  margin-bottom: 60px;
+}
+
+.contacts,
+.skills,
+.widget {
+  padding-left: 40px;
+}
+
+.contacts__title,
+.skills__title {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contacts__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.contacts__link {
+  opacity: 0.6;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contacts__link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
