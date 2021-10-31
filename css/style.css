@@ -220,3 +220,19 @@ body {
   background-color: #ff6b08;
   box-shadow: 0px 8px 43px 0px rgba(255, 107, 8, 0.588);
 }
+
+.widget__link:hover {
+  box-shadow: 0px 8px 23px 0px #ff6b0896;
+}
+
+.widget__link:active {
+  box-shadow: inset 0px 2px 5px 0px #ff6b0896;
+}
+
+.photo:hover {
+  animation: swing 1s;
+}
+
+.widget:hover {
+  animation: heartBeat 1s;
+}
