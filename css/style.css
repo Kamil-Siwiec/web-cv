@@ -68,3 +68,24 @@ body {
   color: #ff6b08;
   text-decoration: underline;
 }
+
+.jobs__title,
+.education__title {
+  color: #2a2a2a;
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.jobs__occupation,
+.education__degree {
+  color: #2a2a2a;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.jobs__time,
+.education__time {
+  color: #828282;
+  font-size: 12px;
+  line-height: 2;
+}
