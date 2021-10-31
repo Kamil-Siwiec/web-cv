@@ -110,3 +110,32 @@ body {
 }
 
 /* ========= left-side ========= */
+
+.left-side {
+  width: 370px;
+  background-color: #1e2939;
+  color: #fff;
+}
+
+.skills__title {
+  font-size: 22px;
+  line-height: 1.091;
+}
+
+.skills__item {
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.skills__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills__item::before {
+  content: '\2022';
+  margin-right: 8px;
+  color: #ff6b08;
+  font-size: 18px;
+}
+
