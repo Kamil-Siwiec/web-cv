@@ -89,3 +89,24 @@ body {
   font-size: 12px;
   line-height: 2;
 }
+
+.experience__item {
+  color: #595959;
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.education__link {
+  text-decoration: none;
+}
+
+.education__link:hover {
+  color: #220fdc;
+  text-decoration: underline;
+}
+
+.accent {
+  color: #ff6b08;
+}
+
+/* ========= left-side ========= */
